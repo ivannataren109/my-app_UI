@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {getSentence, getInsult} from './api/getSentence';
 import { useEffect, useState} from 'react';
+import AppHeader1 from './Header/App-header-1';
 
 function App() {
 
@@ -62,28 +63,30 @@ function App() {
 
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React and this: {data}, {data2}
-        </a>
-       <p>
-          data3 ={'>'} {data3.toString().replace(',', ', ')}
-        </p>
-        <p>
-          data4 ={'>'} {data4.toString().replace(',', ', ')}
-        </p>
-      </header>
-    </div>
+//     <div className="App">
+//       <header className="App-header">
+//         <img src={logo} className="App-logo" alt="logo" />
+//         <p>
+//           Edit <code>src/App.tsx</code> and save to reload.
+//         </p>
+//         <a
+//           className="App-link"
+//           href="https://reactjs.org"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React and this: {data}, {data2}
+//         </a>
+//        <p>
+//           data3 ={'>'} {data3.toString().replace(',', ', ')}
+//         </p>
+//         <p>
+//           data4 ={'>'} {data4.toString().replace(',', ', ')}
+//         </p>
+//       </header>
+//     </div>
+
+    <AppHeader1/>
   );
 }
 
