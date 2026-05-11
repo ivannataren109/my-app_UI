@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The Purpose of this project is to develop and hone my development skills as a Software Engineer.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

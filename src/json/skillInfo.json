@@ -1,0 +1,48 @@
+{
+
+  "skills": [
+    "JavaScript",
+    "Typescript",
+    "Java",
+    "Spring Boot",
+    "React.js",
+    "Angular.js",
+    "Node.js",
+    "SQL",
+    "Python",
+    "PostgreSQL",
+    "Oracle",
+    "MongoDB",
+    "Git",
+    "BitBucket",
+    "Unit Testing",
+    "System Testing",
+    "Acceptance Testing",
+    "Test Automation",
+    "AWS",
+    "Azure",
+    "PCF",
+    "Google Cloud",
+    "Docker",
+    "Kubernetes",
+    "GitHub Actions",
+    "TensorFlow",
+    "PyTorch",
+    "GitHub Copilot"
+  ],
+  "proficiency_level": [
+    "Beginner",
+    "Intermediate",
+    "Advanced",
+    "Proficient"
+  ],
+  "categories": [
+    "Programming Language",
+    "Framework",
+    "Version Control",
+    "Database Management",
+    "Testing and Debugging",
+    "Cloud Platforms & DevOps",
+    "AI/ML Integration"
+  ]
+}

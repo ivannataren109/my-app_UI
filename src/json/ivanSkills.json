@@ -1,0 +1,222 @@
+{
+  "person_name": "Ivan Nataren",
+  "skills": [
+    {
+      "id":1,
+      "category":"Programming Language",
+      "name": "JavaScript",
+      "proficiency_level": "Proficient"
+
+    },
+    {
+      "id":2,
+      "category":"Programming Language",
+      "name": "Typescript",
+      "proficiency_level": "Proficient"
+
+    },
+    {
+      "id":3,
+      "category":"Programming Language",
+      "name": "Java",
+      "proficiency_level": "Proficient"
+
+    },
+    {
+      "id":4,
+      "category":"Framework",
+      "name": "Spring Boot",
+      "proficiency_level": "Proficient"
+
+    },
+    {
+      "id":5,
+      "category":"Framework",
+      "name": "Node.js",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":6,
+      "category":"Programming Language",
+      "name": "SQL",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":7,
+      "category":"Programming Language",
+      "name": "Python",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":8,
+      "category":"Database Management",
+      "name": "PostgreSQL",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":9,
+      "category":"Database Management",
+      "name": "Oracle",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":10,
+      "category":"Database Management",
+      "name": "MongoDB",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":11,
+      "category":"Version Control",
+      "name": "Git",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":12,
+      "category":"Version Control",
+      "name": "BitBucket",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":13,
+      "category":"Cloud Platforms & DevOps",
+      "name": "Azure DevOps",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":14,
+      "category":"Version Control",
+      "name": "GitHub",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":15,
+      "category":"Version Control",
+      "name": "GitLab",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":16,
+      "category":"Testing and Debugging",
+      "name": "Unit Testing",
+      "proficiency_level": "Proficient"
+
+    },
+    {
+      "id":17,
+      "category":"Testing and Debugging",
+      "name": "System Testing",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":18,
+      "category":"Testing and Debugging",
+      "name": "Acceptance Testing",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":19,
+      "category":"Testing and Debugging",
+      "name": "Test Automation",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":20,
+      "category":"Cloud Platforms & DevOps",
+      "name": "AWS",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":21,
+      "category":"Cloud Platforms & DevOps",
+      "name": "Azure",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":22,
+      "category":"Cloud Platforms & DevOps",
+      "name": "PCF",
+      "proficiency_level": "Intermediate"
+
+    },
+    {
+      "id":23,
+      "category":"Cloud Platforms & DevOps",
+      "name": "Google Cloud",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":24,
+      "category":"Cloud Platforms & DevOps",
+      "name": "Docker",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":25,
+      "category":"Cloud Platforms & DevOps",
+      "name": "Kubernetes",
+      "proficiency_level": "Intermediate"
+
+    },
+    {
+      "id":26,
+      "category":"Cloud Platforms & DevOps",
+      "name": "GitHub Actions",
+      "proficiency_level": "Intermediate"
+
+    },
+    {
+      "id":27,
+      "category":"AI/ML Integration",
+      "name": "TensorFlow",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":28,
+      "category":"AI/ML Integration",
+      "name": "PyTorch",
+      "proficiency_level": "Beginner"
+
+    },
+    {
+      "id":29,
+      "category":"AI/ML Integration",
+      "name": "GitHub Copilot",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":30,
+      "category":"Framework",
+      "name": "React.js",
+      "proficiency_level": "Advanced"
+
+    },
+    {
+      "id":31,
+      "category":"Framework",
+      "name": "Angular.js",
+      "proficiency_level": "Advanced"
+
+    }
+  ]
+}

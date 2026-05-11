@@ -7,62 +7,68 @@ import AppHeader1 from './Header/App-header-1';
 
 function App() {
 
-    const sentence = 'buttface';
+    const sentence = 'Welcome';
     const [data, setData] = useState('');
     const [data2, setData2] = useState('');
     const [data3, setData3] = useState([] as string[]);
     const [data4, setData4] = useState<string[]>([]);
-    const array = [sentence, 'no face', 'skank nastyyyy'];
+    const array = [sentence, 'It is a Pleasure', 'Please, enter'];
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const intervalTime = 5000; // Fetch every 5 seconds (5000ms)
 
-    useEffect(() => {
 
-        let intervalId: any;
+// Code to display message at specific intervals
+// Intervals determined by API backend
 
-                const fetchData = async () => {
-
-                    setLoading(true); // Set loading when starting a new fetch
-                    setError(null); // Clear previous errors
-                    try {
-                        const response = await getSentence();
-                        const response2 = await getInsult();
-                        setData(response);
-                        setData2(response2);
-//                         data3[0] = response;
-//                         data3[1] = response2;
-                        setData3([response, response2]);
-
-//                         data4.push(response);
-//                         data4.push(response2);
-                        setData4(array.concat(data3));
-
-//                 console.log(response);
-//                 console.log(response2);
-                    }
-                    catch (err) {
-//                             setError(err);
-
-                    }
-                    finally {
-                        setLoading(false);
-                    }
-                };
-            fetchData();
-
-            // Set up the interval for subsequent fetches
-                intervalId = setInterval(fetchData, intervalTime);
-
-            // Cleanup function: Clear the interval when the component unmounts
-            return () => {
-              clearInterval(intervalId);
-            }
-        }, [intervalTime]);
+//     useEffect(() => {
+//
+//         let intervalId: any;
+//
+//                 const fetchData = async () => {
+//
+//                     setLoading(true); // Set loading when starting a new fetch
+//                     setError(null); // Clear previous errors
+//                     try {
+//                         const response = await getSentence();
+//                         const response2 = await getInsult();
+//                         setData(response);
+//                         setData2(response2);
+// //                         data3[0] = response;
+// //                         data3[1] = response2;
+//                         setData3([response, response2]);
+//
+// //                         data4.push(response);
+// //                         data4.push(response2);
+//                         setData4(array.concat(data3));
+//
+// //                 console.log(response);
+// //                 console.log(response2);
+//                     }
+//                     catch (err) {
+// //                             setError(err);
+//
+//                     }
+//                     finally {
+//                         setLoading(false);
+//                     }
+//                 };
+//             fetchData();
+//
+//             // Set up the interval for subsequent fetches
+//                 intervalId = setInterval(fetchData, intervalTime);
+//
+//             // Cleanup function: Clear the interval when the component unmounts
+//             return () => {
+//               clearInterval(intervalId);
+//             }
+//         }, [intervalTime]);
 
 
 
   return (
+
+//       Code from Base React
 //     <div className="App">
 //       <header className="App-header">
 //         <img src={logo} className="App-logo" alt="logo" />
